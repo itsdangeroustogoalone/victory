@@ -25,10 +25,14 @@
     "victory-axis": "^30.3.1",
     "victory-core": "^30.3.1",
     "victory-polar-axis": "^30.3.1",
-    "victory-shared-events": "^30.3.1"
+    "victory-shared-events": "^30.3.1",
+    "snyk": "^1.189.0"
   },
   "scripts": {
-    "version": "nps build-libs && nps build-dists"
+    "version": "nps build-libs && nps build-dists",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "snyk": true
 }
