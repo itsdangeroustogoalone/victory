@@ -26,10 +26,14 @@
     "d3-timer": "^1.0.0",
     "lodash": "^4.17.5",
     "prop-types": "^15.5.8",
-    "react-fast-compare": "^2.0.0"
+    "react-fast-compare": "^2.0.0",
+    "snyk": "^1.189.0"
   },
   "scripts": {
-    "version": "nps build-libs && nps build-dists"
+    "version": "nps build-libs && nps build-dists",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "snyk": true
 }
