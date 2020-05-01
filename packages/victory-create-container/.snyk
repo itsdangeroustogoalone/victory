@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-brush-container > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-cursor-container > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-selection-container > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-voronoi-container > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-zoom-container > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-brush-container > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-cursor-container > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-selection-container > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-voronoi-container > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-zoom-container > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-voronoi-container > victory-tooltip > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
+    - victory-voronoi-container > victory-tooltip > victory-core > lodash:
+        patched: '2020-05-01T02:54:45.889Z'
