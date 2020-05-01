@@ -1,0 +1,144 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-area > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-axis > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-bar > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-box-plot > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-brush-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-brush-line > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-candlestick > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-polar-axis > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-shared-events > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-cursor-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-selection-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-tooltip > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-zoom-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-errorbar > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-group > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-legend > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-line > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-pie > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-scatter > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-stack > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-area > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-axis > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-bar > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-box-plot > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-brush-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-brush-line > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-candlestick > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-polar-axis > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-shared-events > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-cursor-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-selection-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-tooltip > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-zoom-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-errorbar > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-group > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-legend > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-line > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-pie > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-scatter > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-stack > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-axis > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-brush-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-polar-axis > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-shared-events > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-cursor-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-selection-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi-container > victory-tooltip > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-voronoi-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-zoom-container > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-axis > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-brush-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-polar-axis > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-chart > victory-shared-events > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-cursor-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-selection-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-voronoi-container > victory-tooltip > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-voronoi-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-zoom-container > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-voronoi-container > victory-tooltip > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
+    - victory-create-container > victory-voronoi-container > victory-tooltip > victory-core > lodash:
+        patched: '2020-05-01T02:30:04.530Z'
